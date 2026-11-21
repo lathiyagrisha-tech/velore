@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velore Watches | Men</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111111;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background: #080808;
+            border-bottom: 1px solid #333;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo {
+            color: #d4af37;
+            font-size: 27px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        .heading {
+            text-align: center;
+            padding: 55px 20px 35px;
+        }
+
+        .heading h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .gold {
+            color: #d4af37;
+        }
+
+        .heading p {
+            color: #bbbbbb;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 28px;
+            padding: 20px 8% 70px;
+        }
+
+        .card {
+            background: #1b1b1b;
+            border: 1px solid #333;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+            border-color: #d4af37;
+        }
+
+        .card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .details {
+            padding: 22px;
+        }
+
+        .details h2 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            color: #bbbbbb;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .price {
+            color: #d4af37;
+            font-size: 23px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #d4af37;
+            color: #111111;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #aaaaaa;
+            background: #080808;
+        }
+
+        @media (max-width: 900px) {
+            .products {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                text-align: center;
+                line-height: 2.5;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .products {
+                grid-template-columns: 1fr;
+                padding: 20px 7% 50px;
+            }
+
+            .heading h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Velore</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="heading">
+    <h1>Our <span class="gold">Men</span></h1>
+</section>
+
+<section class="products">
+
+    <div class="card">
+        <img
+            src="watch1.jpeg"
+            alt="Patek Philippe Nautilus Watch">
+
+        <div class="details">
+            <h2>Patek Philippe Nautilus watch</h2>
+            
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img
+            src="dior.jpg"
+            alt="Dior watch">
+
+        <div class="details">
+            <h2>Dior watch</h2>
+            
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img
+            src="gucci2.jpg"
+            alt="gucci watch">
+
+        <div class="details">
+            <h2>Gucci Watch</h2>
+            
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img
+            src="olevs.jpg"
+            alt="Olevs watch">
+
+        <div class="details">
+            <h2>Olevs Watch</h2>
+            
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img
+            src="quartz.jpg"
+            alt="Quartz watch">
+
+        <div class="details">
+            <h2>Quartz watch</h2>
+            
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img
+            src="quartz2.jpg"
+            alt="Quartz watch">
+
+        <div class="details">
+            <h2>Quartz watch</h2>
+            
+            
+        </div>
+    </div>
+    <div class="card">
+        <img
+            src="rolex.jpg"
+            alt="Rolex  watch">
+
+        <div class="details">
+            <h2>Rolex  watch</h2>
+            
+        
+        </div>
+    </div>
+<div class="card">
+        <img
+            src="rolex2.jpg"
+            alt="Rolex  watch">
+
+        <div class="details">
+            <h2>Rolex  watch</h2>
+            
+            
+        </div>
+    </div>
+<div class="card">
+        <img
+            src="silver_royal.jpg"
+            alt="Silver Royal Watch">
+
+        <div class="details">
+            <h2>Silver Royal Watch"</h2>
+            
+            
+        </div>
+    </div>
+    <div class="card">
+        <img
+            src="titan.jpg"
+            alt="Titan Watch ">
+
+        <div class="details">
+            <h2>Titan Watch</h2>
+            
+        </div>
+    </div>
+    <div class="card">
+        <img
+            src="titan2.jpg"
+            alt=" Titan watch">
+
+        <div class="details">
+            <h2> Titan Watch</h2>
+            
+        </div>
+    </div>
+    <div class="card">
+        <img
+            src="blvgari.jpg"
+            alt="Blvgari Watch">
+
+        <div class="details">
+            <h2>Blvgari Watch</h2>
+            
+        </div>
+    </div>
+
+
+</section>
+
+<footer>
+    © 2026 Luxora Watches | Designed with Elegance
+</footer>
+
+</body>
+</html>
